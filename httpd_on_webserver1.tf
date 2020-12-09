@@ -19,6 +19,8 @@ resource "null_resource" "FoggyKitchenWebserver1HTTPD" {
 
             "echo '== 3. Disabling firewall and starting HTTPD service'",
             "sudo -u root service firewalld stop",
-            "sudo -u root service httpd start"]
+            "sudo -u root service httpd start",
+            "sudo -u root systemctl enable httpd",
+            "sudo -u root systemctl disable firewalld"]
   }
 }
