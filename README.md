@@ -2,7 +2,7 @@
 
 ## Project description
 
-In this repository I have documented my hands-on experience with Terrafrom for the purpose of OCI ATP Private Endpoint deployment. This set of HCL based Terraform files can customized according to any requirements.  
+In this repository I have documented my hands-on experience with Terrafrom for the purpose of OCI Flex Compute Shapes deployment (new OCI feature released and documented [_here_](https://docs.cloud.oracle.com/en-us/iaas/releasenotes/changes/97196374-a7b3-4ac3-ad66-2cfbebcba39d/) and now supported by OCI Terraform Provider v3.94.0). This set of HCL based Terraform files can customized according to any requirements.  
 
 ## Topology Diagram 
 
